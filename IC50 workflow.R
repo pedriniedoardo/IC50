@@ -1,5 +1,6 @@
+# load the data
 library(readr)
-df <- read_csv("Copy of Toshiki4IC50.csv")
+df <- read_csv("IC50.csv")
 # structure of the input dataset
 str(df)
 # fix the data for data analysis
