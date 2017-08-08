@@ -1,3 +1,5 @@
+# load the main package
+library(drc)
 # load the data
 library(readr)
 df <- read_csv("IC50.csv")
